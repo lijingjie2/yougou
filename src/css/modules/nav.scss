@@ -1,0 +1,43 @@
+nav{
+    
+    height: 274px;
+    background: #FFFFFF;
+    
+    a{
+        display: block;
+        width: 98px;
+        height: 58px;
+        margin: 0 auto;
+        margin-top: 78px;  
+        
+    }
+    div{
+        height: 63px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        ul{
+            display: flex;
+            height: 50px;
+            align-items: center;
+            
+            li{
+                float: left;
+                margin-right: 88px;
+                a{
+                    font-size: 25px;
+                    color: #282828;
+                }
+            }
+        }
+        form{
+            width: 225px;
+            height: 40px;
+            border-bottom: 2px solid #000000;
+            input{
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}

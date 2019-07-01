@@ -1,0 +1,40 @@
+form{
+    left: 50%;
+    margin-left: 115px;
+    display: flex;
+    align-content: center;
+    width: 472px;
+    height: 663px;
+    div{
+        margin-bottom: 36px; 
+        width: 391px;
+        height: 48px;
+    }
+    form:nth-of-type(1){
+        width: 314px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        
+        input{
+            width: 154px;
+            height: 50px;
+            background: #f3f3f3;
+        }
+    }
+    form:nth-of-type(3),form:nth-of-type(4){
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        font-size: 14px;
+        line-height: 14px;
+        color: #666566;
+        margin-bottom: 10px; 
+    }
+    form:nth-of-type(8){
+        background: #000000;
+        line-height: 48px;
+        text-align: center;
+    }
+}
